@@ -53,4 +53,4 @@ Your task is to complete the function `isFibonacciSequence` TDD style
 
 Before starting, ensure that the following command does not throw error
 
-1. `npm run test`
+1. `npm run test:unit`
