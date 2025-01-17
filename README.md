@@ -21,7 +21,7 @@ Follow these steps to jump into your development environment
 
 1. Go to a folder of your choice to clone the project
    1. Run`git clone https://github.com/weijian19391/smu-workshop.git`
-2. Start VSCode open the Command Palette (F1) and run `Dev Containers: Open folder in Container...`
+2. Start VSCode, open the Command Palette (F1) and run `Dev Containers: Open folder in Container...`
 3. Select the project folder you just cloned
    1. Wait for VSCode to finish initialising the workspace
 4. Open VSCode terminal
@@ -32,7 +32,6 @@ Follow these steps to jump into your development environment
    2. Run the following command to test that your server is up
       1. `curl -X POST http://localhost:3888/api/check-fibonacci -H "Content-Type: application/json" -d '{"sequence": [0, 1, 1, 2, 3, 5, 8]}'`
       2. You should get `{}` in return
-
 
 ## Overview of the project cloned
 
